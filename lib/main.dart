@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ssb_buddy/pages/login_page.dart';
+import 'package:ssb_buddy/pages/dashboard/dashboard_page.dart';
 import 'package:ssb_buddy/pages/signup.dart';
 
 void main() {
@@ -8,8 +8,6 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -20,6 +18,6 @@ class MyApp extends StatelessWidget {
           canvasColor: Colors.black,
           useMaterial3: true,
         ),
-        home: Signup());
+        home: DashboardPage());
   }
 }

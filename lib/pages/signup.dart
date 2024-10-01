@@ -24,7 +24,7 @@ class Signup extends StatelessWidget {
                   border: Border.all(color: Colors.white),
                   color: Colors.blueGrey.shade700,
                 ),
-                child: Center(child: const Text("Profile Picture")),
+                child: const Center(child: Text("Profile Picture")),
               ),
             ),
             Column(
@@ -38,9 +38,9 @@ class Signup extends StatelessWidget {
                     border: Border.all(color: Colors.white),
                     color: Colors.blueGrey.shade700,
                   ),
-                  child: Center(child: const Text("EXP")),
+                  child: const Center(child: Text("EXP")),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 Container(
@@ -51,13 +51,13 @@ class Signup extends StatelessWidget {
                     border: Border.all(color: Colors.white),
                     color: Colors.blueGrey.shade700,
                   ),
-                  child: Center(child: const Text("Username")),
+                  child: const Center(child: Text("Username")),
                 )
               ],
             )
           ],
         ),
-        SizedBox(
+        const SizedBox(
           height: 20,
         ),
         Container(
@@ -68,9 +68,9 @@ class Signup extends StatelessWidget {
             border: Border.all(color: Colors.white),
             color: Colors.blueGrey.shade700,
           ),
-          child: Center(child: const Text("Username")),
+          child: const Center(child: Text("Username")),
         ),
-        SizedBox(
+        const SizedBox(
           height: 20,
         ),
         Container(
@@ -81,9 +81,9 @@ class Signup extends StatelessWidget {
             border: Border.all(color: Colors.white),
             color: Colors.blueGrey.shade700,
           ),
-          child: Center(child: const Text("Username")),
+          child: const Center(child: Text("Username")),
         ),
-        SizedBox(
+        const SizedBox(
           height: 80,
         ),
         Container(
@@ -94,7 +94,7 @@ class Signup extends StatelessWidget {
             border: Border.all(color: Colors.white),
             color: Colors.blueGrey.shade700,
           ),
-          child: Center(child: const Text("Experience with SSB")),
+          child: const Center(child: Text("Experience with SSB")),
         )
       ],
     )));
